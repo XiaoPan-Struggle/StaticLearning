@@ -1,0 +1,41 @@
+.round{
+    font-size: 21px;
+    color: #ef3a3d;
+    padding-top: 15px;
+}
+.flash_goods img{
+    width: 53px;
+    height: 53px;
+    margin: 25px auto;
+}
+.write{
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+.counttime{
+    display: block;
+    /* margin-right: 20px; */
+    float: left;
+    width: 46px;
+    height: 46px;
+    background-color: #605751;
+    font-size: 24px;
+    text-align: center;
+    line-height: 46px;
+    color: white;
+}
+.down{
+    display: block;
+    width: 15px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    color: #605751;
+    font-size: 28px;
+    font-style: normal;
+}
+.countdown{
+    display: block;
+    width: 168px;
+    margin: 28px auto 0;
+}

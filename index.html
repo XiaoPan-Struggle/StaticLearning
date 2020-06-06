@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/countDwonTime.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- <link rel="stylesheet" href="css/footer.css"> -->
+    <script src="js/iconfont.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/countDownTime.js"></script>
+    <script src="js/plugin.js"></script>
+    <title>
+      小米商城 - 小米9 Pro、小米MIX Alpha、Redmi Note 8，小米电视官方网站
+    </title>
+    <style>
+      @font-face {
+        font-family: "iconfont";
+        src: url("iconfont.eot");
+        src: url("iconfont.eot?#iefix") format("embedded-opentype"),
+          url("iconfont.woff2") format("woff2"),
+          url("iconfont.woff") format("woff"),
+          url("iconfont.ttf") format("truetype"),
+          url("iconfont.svg#iconfont") format("svg");
+      }
+      .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .swiper-container {
+        width: 100%;
+        height: 460px;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* C enter slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .swiper-button-prev {
+        left: 234px !important;
+      }
+      .team{
+        position: absolute;
+        top: 0px;
+        left: -200px;
+        z-index: 999;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 顶部导航栏 -->
+    <!-- 上部分 -->
+    <div class="topar">
+      <div class="container">
+        <div class="topar-nav">
+          <a href="">小米商城</a><span>|</span> <a href="">MIUI</a
+          ><span>|</span> <a href="">IoT</a><span>|</span> <a href="">云服务</a
+          ><span>|</span> <a href="">金融</a><span>|</span> <a href="">有品</a
+          ><span>|</span> <a href="">小爱开放平台</a><span>|</span>
+          <a href="">政企服务</a><span>|</span> <a href="">资质证照</a
+          ><span>|</span> <a href="">协议规则</a><span>|</span>
+          <a href="" class="download">
+            下载app
+            <span class="appcode appcode_item">
+              <img src="img/download.png" alt="小米商城" />
+              小米商城APP
+            </span> </a
+          ><span>|</span>
+          <a href="">Select Location</a>
+        </div>
+        <div class="topar-care">
+          <a href="小米——购物车/index.html" target="_blank"
+            ><i class="iconfont">&#xe887;</i>购物车<span>（0）</span></a
+          >
+          <div class="care_goods">购物车中还没有商品，赶紧选购吧</div>
+        </div>
+        <div class="topar-info">
+          <a href="小米——登录/Untitled-1.html" target="_blank">登录</a><span>|</span> <a href="小米——注册页面/login.html" target="_blank">注册</a><span>|</span>
+          <a href="" class="sep">消息通知</a>
+        </div>
+      </div>
+    </div>
+    <!-- 下部分 -->
+    <div class="header">
+      <div class="container">
+        <div class="header-logo">
+          <img src="img/mi-logo.png" alt="" class="logo" />
+          <img src="img/mi-home.png" alt="" class="logo homepng" />
+        </div>
+        <div class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-category">
+              <a href=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="">小米手机</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Redmi 红米</a>
+            </li>
+            <li class="nav-item">
+              <a href="">电视</a>
+            </li>
+            <li class="nav-item">
+              <a href="">笔记本</a>
+            </li>
+            <li class="nav-item">
+              <a href="">家电</a>
+            </li>
+            <li class="nav-item">
+              <a href="">新品</a>
+            </li>
+            <li class="nav-item">
+              <a href="">路由器</a>
+            </li>
+            <li class="nav-item">
+              <a href="">智能硬件</a>
+            </li>
+            <li class="nav-item">
+              <a href="">服务</a>
+            </li>
+            <li class="nav-item">
+              <a href="">社区</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-search">
+          <form class="search-form">
+            <input type="search" class="search-text" name="keyword" />
+            <input type="submit" class="search-nav iconfont" value="&#xe8ba;" />
+            <div class="search-hot">
+              <a href="">小米9 Pro 5G</a>
+              <a href="">Redmi Note 8</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- 功能处 -->
+    <div class="home_nav_container container">
+      <img src="img/logo-3.png" alt="" class="team">
+      <div class="home_nav">
+        <!-- 轮播图 -->
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <!-- <div class="swiper-slide"><img src="img/5.jpg" alt=""></div> -->
+            <div class="swiper-slide"><img src="img/1.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/2.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/3.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/4.jpg" alt="" /></div>
+            <div class="swiper-slide"><img src="img/5.jpg" alt="" /></div>
+            <!-- <div class="swiper-slide"><img src="img/1.jpeg" alt=""></div>                 -->
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <!-- tap左侧导航栏 -->
+        <div class="home_sub">
+          <ul class="home_list">
+            <li class="home_list_item">
+              <a href="" class="title">手机 电话卡</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">电视 盒子</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">笔记本 显示器 平板</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">家电 插线板</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">出行 穿戴</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">智能 路由器</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">电源 配件</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">健康 儿童</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">耳机 音箱</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+            <li class="home_list_item">
+              <a href="" class="title">生活 箱包</a>
+              <em class="iconfont iconfont_item">&#xe8f1;</em>
+            </li>
+          </ul>
+          <!-- 1 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 2 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+              <span style="padding-left: 60px;">Redmi K29 4G</span>
+          </a>
+          <a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+            <span style="padding-left: 60px;">Redmi K29 4G</span>
+        </a>
+        <a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+          <span style="padding-left: 60px;">Redmi K29 4G</span>
+      </a>
+      <a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+        <span style="padding-left: 60px;">Redmi K29 4G</span>
+    </a>
+    <a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+      <span style="padding-left: 60px;">Redmi K29 4G</span>
+  </a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+    <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a><a class="area_1" style="background: url(img/Snipaste_10.png) no-repeat;">
+  <span style="padding-left: 60px;">Redmi K29 4G</span>
+</a>
+    
+          </div>
+          <!-- 3 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_9.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K28 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 4 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_8.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K27 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 5 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_7.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K26 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 6 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_6.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K25 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 7 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_5.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K24 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 8 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_4.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K23 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 9 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_3.png) no-repeat;">
+                <span style="padding-left: 60px;">Redmi K22 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">Redmi K30 4G</span>
+            </a>
+    
+          </div>
+          <!-- 10 -->
+          <div class="horizontal_bar" style="display: none;">
+            <a class="area_1" style="background: url(img/Snipaste_2.png) no-repeat;">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+            <a class="area_1">
+                <span style="padding-left: 60px;">小背包</span>
+            </a>
+    
+          </div>
+        </div>
+        <script src="js/tap.js"></script>
+        <!-- 小导航和新商品 -->
+        <div class="mi_home_new">
+          <!-- 精灵图 -->
+          <div class="sprite">
+            <ul class="mi_home_list clearfix">
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/sprite.png" alt="" />
+                  小米秒杀
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/sprite2.png" alt="" />
+                  企业团购
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/sprite3.png" alt="" />
+                  F码通道
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/sprite4.png" alt="" />
+                  米粉卡
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/sprite5.png" alt="" />
+                  以旧换新
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/sprite6.png" alt="" />
+                  话费充值
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- 新商品 -->
+          <div class="newgoods">
+            <ul class="newgoods3">
+              <li class="first">
+                <a href="" target="_blank">
+                  <img src="img/newgoods1.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/newgoods2.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  <img src="img/newgoods3.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 商品展示区 -->
+    <div class="home_main">
+      <div class="container">
+        <!-- 商品栏 -->
+        <div class="plain_box">
+          <!-- 标题 -->
+          <div class="box_hd">
+            <h2 class="title">小米闪购</h2>
+          </div>
+          <!-- 商品 -->
+          <div class="clearfix">
+            <div class="row">
+              <div class="flash_goods">
+                <div class="round">
+                  00:00场
+                </div>
+                <img src="img/timg.jpg" alt="">
+                <div class="write">距离结束还有</div>
+                <div class="countdown">
+                  <span class="hour counttime">1</span>
+                  <i class="down">:</i>
+                  <span class="minute counttime">2</span>
+                  <i class="down">:</i>
+                  <span class="second counttime">3</span>
+              </div>
+              </div>
+              <div class="flash_show">
+                <ul>
+                  <li class="show_items show_items_1" style="width: 234px; margin-right: 14px;">
+                    <a href="小米闪购/xiaomi.html" target="_blank">
+                      <div class="content">
+                        <div class="thumb">
+                          <img src="img/shangou1.jpg" alt="小米蓝牙耳机mini 黑色">
+                        </div>
+                        <h3 class="goods_text">小米蓝牙耳机mini 黑色</h3>
+                        <p class="goods_introduction">美妙动听之声</p>
+                        <p class="price">39.5元</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="show_items show_items_2" style="width: 234px; margin-right: 14px;">
+                    <a href="小米闪购/xiaomi.html" target="_blank">
+                      <div class="content">
+                        <div class="thumb">
+                          <img src="img/shangou2.jpg" alt="MIJOY 抽纸青春版 24包/箱">
+                        </div>
+                        <h3 class="goods_text">MIJOY 抽纸青春版 24包/箱</h3>
+                        <p class="goods_introduction">精选原生竹浆，健康环保</p>
+                        <p class="price">27.9元</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="show_items show_items_3" style="width: 234px; margin-right: 14px;">
+                    <a href="小米闪购/xiaomi.html" target="_blank">
+                      <div class="content">
+                        <div class="thumb">
+                          <img src="img/shangou3.png" alt="Redmi Note 8 Pro 6GB+128GB 电光灰">
+                        </div>
+                        <h3 class="goods_text">Redmi Note 8 Pro 6GB+128GB 电光灰</h3>
+                        <p class="goods_introduction">6400万全场景四摄</p>
+                        <p class="price">1399元</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="show_items show_items_4" style="width: 234px;">
+                    <a href="小米闪购/xiaomi.html" target="_blank">
+                      <div class="content">
+                        <div class="thumb">
+                          <img src="img/shangou4.jpg" alt="黑鲨游戏手机2 Pro 12GB+256GB 电鸣黑">
+                        </div>
+                        <h3 class="goods_text">黑鲨游戏手机2 Pro 12GB+256GB 电鸣黑</h3>
+                        <p class="goods_introduction">骁龙855 Plus </p>
+                        <p class="price">3299元</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flash_ad">
+                <a href="" target="_blank">
+                  <img
+                    src="img/ad1.jpg"
+                    alt=""
+                    style="widows: 1226px; height: 120px;"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 手机 -->
+        <div class="banner_box">
+          <!-- 标题 -->
+          <div class="box_hd">
+            <h2 class="title">手机</h2>
+            <div class="more">
+              <a href="" class="more_link"
+                >查看全部
+                <i class="iconfont">&#xe8f1;</i>
+              </a>
+            </div>
+          </div>
+          <!-- 展示 -->
+          <div class="box_bd">
+            <div class="container">
+              <div class="row" style="height: 624px;">
+                <div class="span2">
+                  <ul class="brick_list clearfix">
+                    <li class="brick_item brick_item_1">
+                      <a href="">
+                        <img src="img/ad2.jpg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="span8">
+                  <ul class="brick_list clearfix">
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs2.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs3.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs4.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs5.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs6.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs7.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs8.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米CC9 Pro
+                        </h3>
+                        <p class="goods_introduction">
+                          1亿像素 五摄四闪
+                        </p>
+                        <p class="price">
+                          2799元起
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 广告 -->
+          <div class="flash_ad">
+            <a href="" target="_blank">
+              <img
+                src="img/ad3.jpg"
+                alt=""
+                style="widows: 1226px; height: 120px;"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- 家电 -->
+        <div class="banner_box">
+          <!-- 标题 -->
+          <div class="box_hd">
+            <h2 class="title">家电</h2>
+            <div class="more">
+              <a href="" class="more_link"
+                >查看全部
+                <i class="iconfont">&#xe8f1;</i>
+              </a>
+            </div>
+          </div>
+          <!-- 展示 -->
+          <div class="box_bd">
+            <div class="container">
+              <div class="row" style="height: 624px;">
+                <div class="span2">
+                  <ul class="brick_list clearfix">
+                    <li class="brick_item brick_item_1 bg">
+                      <a href="">
+                        <img src="img/ad4.jpg" alt="" />
+                        <img src="img/ad4-1.jpg" alt="" class="ad4-1"/>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="span8">
+                  <ul class="brick_list clearfix">
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs1-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">                         
+                            米家互联网空调C1（一级能效）                                                
+                        </h3>
+                        <p class="goods_introduction">
+                            变频节能省电，自清洁
+                        </p>
+                        <p class="price">
+                          2199元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs2-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          米家空调
+                        </h3>
+                        <p class="goods_introduction">
+                          出众静音，快速制冷热
+                        </p>
+                        <p class="price">
+                          1599元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs3-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">                          
+                            米家互联网洗烘一体机 Pro 10kg                                                
+                        </h3>
+                        <p class="goods_introduction">
+                            智能洗烘，省心省力
+                        </p>
+                        <p class="price">
+                          2999元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs4-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米电视4A 32英寸
+                        </h3>
+                        <p class="goods_introduction">
+                          人工智能系统，高清液晶屏
+                        </p>
+                        <p class="price">
+                          599元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs5-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          Redmi全自动波轮洗衣机1A 8kg
+                        </h3>
+                        <p class="goods_introduction">
+                          一键操作，父母都爱用
+                        </p>
+                        <p class="price">
+                          699元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs6-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米全面屏电视E55A
+                        </h3>
+                        <p class="goods_introduction">
+                          全面屏设计，人工智能语音
+                        </p>
+                        <p class="price">
+                          2099元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs7-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">                          
+                            15.6" 四核i7 16G 独显 512G                                                
+                        </h3>
+                        <p class="goods_introduction">
+                            全面均衡的国民轻薄本
+                        </p>
+                        <p class="price">
+                          4699元
+                        </p>
+                      </a>
+                    </li>
+                    <li class="brick_item birck_item_2">
+                      <a href="" style="display: inline;">
+                        <div class="goods_imgs">
+                          <img src="img/goods_imgs8-1.jpg" alt="" />
+                        </div>
+                        <h3 class="goods_text">
+                          小米电视4X 43英寸
+                        </h3>
+                        <p class="goods_introduction">
+                          FHD全高清屏，人工智能语言
+                        </p>
+                        <p class="price">
+                          999元
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 广告 -->
+          <div class="flash_ad">
+            <a href="" target="_blank">
+              <img
+                src="img/ad5.jpg"
+                alt=""
+                style="widows: 1226px; height: 120px;"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 全网页导航栏 -->
+    <div class="tool-bar">
+      <a href="" class="globar_nav tool-bar-download-img">
+        <div class="iconfont icon">&#xe60b;</div>
+        <span class="text">手机APP</span>
+        <div class="appcode tool-bar-download">
+          <img src="img/download.png" alt="小米商城" class="appcode_img" />
+          <span class="desc">
+            手机扫一扫一分赢好礼
+          </span>
+        </div>
+      </a>
+      <a href="" class="globar_nav">
+        <div class="iconfont icon">&#xe613;</div>
+        <span class="text">个人中心</span>
+      </a>
+      <a href="" class="globar_nav">
+        <div class="iconfont icon">&#xe624;</div>
+        <span class="text">售后服务</span>
+      </a>
+      <a href="" class="globar_nav">
+        <div class="iconfont icon">&#xe645;</div>
+        <span class="text">人工服务</span>
+      </a>
+      <a href="小米——购物车/index.html" target="_blank" class="globar_nav">
+        <div class="iconfont icon">&#xe887;</div>
+        <span class="text">购物车</span>
+      </a>
+      <a href="" class="globar_nav nav_item_backTop">
+        <div class="iconfont icon">&#xe635;</div>
+        <span class="text_backtop">回顶部</span>
+      </a>
+    </div>
+    <!-- 结尾 -->
+    <div class="set-footer">
+      <div class="container">
+        <div class="footer-nav">
+          <ul class="list-nav clearfix">
+            <li class="one">
+              <a href="#"><i></i>预约维修服务</a>
+            </li>
+            <li>
+              <a href="#"><i></i>7天无理由退货</a>
+            </li>
+            <li>
+              <a href="#"><i></i>15天免费换货</a>
+            </li>
+            <li>
+              <a href="#"><i></i>满150元包邮</a>
+            </li>
+            <li>
+              <a href="#"><i></i>520余家售后网点</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links clearfix">
+          <dl class="col-links">
+            <dt>帮助中心</dt>
+            <dd>
+              <a href="#">账户管理</a>
+            </dd>
+            <dd>
+              <a href="#">购物指南</a>
+            </dd>
+            <dd>
+              <a href="#">订单操作</a>
+            </dd>
+          </dl>
+          <dl class="col-links">
+            <dt>服务支持</dt>
+            <dd>
+              <a href="">售后政策</a>
+            </dd>
+            <dd>
+              <a href="">自助服务</a>
+            </dd>
+            <dd>
+              <a href="">相关下载</a>
+            </dd>
+          </dl>
+          <dl class="col-links">
+            <dt>线下门店</dt>
+            <dd>
+              <a href="">小米之家</a>
+            </dd>
+            <dd>
+              <a href="">服务网点</a>
+            </dd>
+            <dd>
+              <a href="">授权体验店</a>
+            </dd>
+          </dl>
+          <dl class="col-links">
+            <dt>关于小米</dt>
+            <dd>
+              <a href="">了解小米</a>
+            </dd>
+            <dd>
+              <a href="">加入小米</a>
+            </dd>
+            <dd>
+              <a href="">投资者关系</a>
+            </dd>
+          </dl>
+          <dl class="col-links">
+            <dt>关注我们</dt>
+            <dd>
+              <a href="">新浪微博</a>
+            </dd>
+            <dd>
+              <a href="">官方微信</a>
+            </dd>
+            <dd>
+              <a href="">联系我们</a>
+            </dd>
+          </dl>
+          <dl class="col-links">
+            <dt>特色服务</dt>
+            <dd>
+              <a href="">F 码通道</a>
+            </dd>
+            <dd>
+              <a href="">礼物码</a>
+            </dd>
+            <dd>
+              <a href="">防伪查询</a>
+            </dd>
+          </dl>
+          <div class="col-contact">
+            <p class="phone">400-100-5678</p>
+            <p class="time">
+              周一至周日 8:00-18:00
+              <br />
+              （仅收市话费）
+            </p>
+            <a href="#" class="col-contact-btn">联系客服</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 最后结束 -->
+    <div class="site_footer">
+      <div class="container">
+        <div class="logo_ir ir">小米官网</div>
+        <div class="info_text">
+          <p class="sites_items">
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+            <span>|</span>
+            <a href="">小米商城</a>
+          </p>
+          <p class="sites_texts">
+            @
+            <a href="">mi.com</a>
+            京ICP证110507号
+            <a href="">京ICP备10046444号</a>
+            <a href="">京公网安备11010802020134号 </a>
+            <a href="">京网文[2017]1530-131号</a>
+            <br />
+            <a href="">（京）网械平台备字（2018）第00005号</a>
+            <a href="">互联网药品信息服务资格证 (京) -非经营性-2014-0090</a>
+            <a href="">营业执照</a>
+            <a href="">医疗器械公告</a>
+            <br />
+            <a href="">增值电信业务许可证</a>
+            &nbsp; 网络食品经营备案（京）【2018】WLSPJYBAHF-12
+            <a href="">食品经营许可证</a>
+            <br />
+            违法和不良信息举报电话：171-5104-4404
+            <a href="">知识产权侵权投诉</a>
+            本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+          </p>
+        </div>
+        <div class="info_links">
+          <a href="">
+            <img src="img/truste.png" alt="" width="85px" height="28px" />
+          </a>
+          <a href="">
+            <img src="img/v-logo-2.png" alt="" />
+          </a>
+          <a href="">
+            <img src="img/v-logo-1.png" alt="" />
+          </a>
+          <a href="">
+            <img src="img/v-logo-3.png" alt="" />
+          </a>
+          <a href="">
+            <img src="img/ba104.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="slogan ir">
+        探索黑科技，小米为发烧而生
+      </div>
+    </div>
+  </body>
+</html>

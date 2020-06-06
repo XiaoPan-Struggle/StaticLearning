@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      div {
+        display: block;
+      }
+      .container {
+        margin: 0 auto;
+        width: 1226px;
+        text-align: right;
+      }
+      .container::before,
+      .container::after,
+      .clearfix::before,
+      .clearfix::after {
+        content: "";
+        display: table;
+      }
+      .container::after,
+      .clearfix::after {
+        clear: both;
+      }
+      ul li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        border: 0;
+      }
+      .row {
+        margin-left: -14px;
+      }
+      .span2 {
+        width: 234px;
+      }
+      .span8 {
+        width: 978px;
+      }
+      .span2,
+      .span8 {
+        float: left;
+        margin-left: 14px;
+        min-height: 1px;
+      }
+      .brick_item img {
+        width: 234px;
+      }
+      .brick_item {
+        display: block;
+        position: relative;
+        z-index: 1;
+        float: left;
+        width: 234px;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        background: #fff;
+        transition: all 0.2s linear;
+      }
+      .brick_item_1 {
+        height: 614px;
+      }
+      .birck_item_2 {
+        height: 260px;
+        padding: 20px 0;
+      }
+      .brick_list {
+        display: block;
+        padding: 0;
+        margin: 0;
+        height: 614px;
+        margin: 0 0 -14px -14px;
+      }
+      .brick_list a {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .goods_imgs {
+        margin: 0 auto 18px;
+        width: 160px;
+        height: 160px;
+      }
+      .goods_imgs img {
+        width: 160px;
+        height: 160px;
+      }
+      .goods_text {
+        margin: 0 10px 2px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #333;
+        text-align: center;
+        padding-top: 1px;
+      }
+      .goods_introduction {
+        display: block;
+        margin: 0 10px 10px;
+        height: 18px;
+        font-size: 12px;
+        color: #b0b0b0;
+        text-align: center;
+      }
+      .price {
+        margin: 0 10px 14px;
+        text-align: center;
+        color: #ff6700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box_hd">
+      <div class="container">
+        <div class="row" style="height: 624px;">
+          <div class="span2">
+            <ul class="brick_list clearfix">
+              <li class="brick_item brick_item_1">
+                <a href="">
+                  <img src="img/ad2.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="span8">
+            <ul class="brick_list clearfix">
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs1.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs2.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs3.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs4.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs5.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs6.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs7.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+              <li class="brick_item birck_item_2">
+                <a href="" style="display: inline;">
+                  <div class="goods_imgs">
+                    <img src="img/goods_imgs8.jpg" alt="" />
+                  </div>
+                  <h3 class="goods_text">
+                    小米CC9 Pro
+                  </h3>
+                  <p class="goods_introduction">
+                    1亿像素 五摄四闪
+                  </p>
+                  <p class="price">
+                    2799元起
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.site_footer {
+  padding: 30px 0;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+.site_footer .container {
+  position: relative;
+  text-align: left;
+}
+.slogan {
+  clear: both;
+  margin: 30px auto 0;
+  width: 267px;
+  height: 19px;
+  background: url(../img/slogan2016.png) no-repeat center 0;
+}
+.logo_ir {
+  width: 57px;
+  height: 57px;
+  margin-right: 10px;
+  background: url(../img/milogo.png) no-repeat 50% 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ir {
+  display: block;
+  text-align: left;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+.info_text {
+  color: #b0b0b0;
+  padding-left: 67px;
+}
+.info_text p {
+  margin: 0;
+  line-height: 18px;
+}
+.sites_items a {
+  color: #757575;
+}
+.info_links {
+  height: 28px;
+  padding-left: 67px;
+  margin: 4px 0 0;
+}
+.sites_texts a {
+  color: #b0b0b0;
+}
+.info_text a:hover {
+  color: #ff6700;
+}
